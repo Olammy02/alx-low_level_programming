@@ -1,12 +1,20 @@
+#include "main.h"
+
 /**
- * main - check the code.
- *
- * Return: Always 0.
- */
-int _isalpha(int l)
+* main - Entry point
+*
+* Return 1 if c is a latter
+*int c to print
+*Return: 0 Always
+*/
+int _isalpha(int )
 {
-	if(((l >= 'a') && (l <= 'z')) || ((l >= 'A') && (l <= 'Z')))
-		return (1);
-	else
-		retun(0);
+if ((c > 'a' && c < 'z') || (c > 'A' && c <= 'Z'))
+{
+return (1);
+}
+else
+{
+retun(0);
+}
 }
